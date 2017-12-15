@@ -46,7 +46,7 @@ EXPOSE 8300
 # Serf LAN and WAN (WAN is used only by Consul servers) are used for gossip between
 # Consul agents. LAN is within the datacenter and WAN is between just the Consul
 # servers in all datacenters.
-EXPOSE 8301 83018302 8302
+EXPOSE 8301 8301 8302 8302
 
 # HTTP and DNS (both TCP and UDP) are the primary interfaces that applications
 # use to interact with Consul.
